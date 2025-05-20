@@ -1,0 +1,179 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Navbar Styling */
+.admin-navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar-logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-links li {
+    display: inline;
+}
+
+.navbar-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-links a:hover {
+    text-decoration: underline;
+}
+
+/* Admin Content Styling */
+.admin-content {
+    margin: 20px;
+}
+
+.admin-content h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+td a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: grid;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input {
+    padding: 8px;
+    font-size: 16px;
+    width: 100%;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* THEME STYLES */
+body.dark-mode {
+    background-color: #1e1e1e;
+    color: #eeeeee;
+}
+
+body.light-mode {
+    background-color: #ffffff;
+    color: #222222;
+}
+
+/* LINK COLORS */
+body.dark-mode a {
+    color: #80bfff;
+}
+
+body.light-mode a {
+    color: #0066cc;
+}
+
+/* FONT SIZE STYLES */
+body.small-font {
+    font-size: 14px;
+}
+
+body.medium-font {
+    font-size: 16px;
+}
+
+body.large-font {
+    font-size: 20px;
+}
+
+/* OPTIONAL: Smooth transitions */
+body {
+    transition: background-color 0.3s ease, color 0.3s ease, font-size 0.3s ease;
+}
+
+body.dark-mode nav {
+    background-color: #2c2c2c;
+}
+
+body.dark-mode footer {
+    background-color: #2a2a2a;
+    color: #ccc;
+}
+
+body.dark-mode .product-card {
+    background-color: #2e2e2e;
+    border-color: #444;
+    color: #eee;
+}
+
+/* Force nav links to stay white in all themes */
+nav a {
+    color: #ffffff !important;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Optional: On hover */
+nav a:hover {
+    text-decoration: underline;
+}
